@@ -1,5 +1,5 @@
 {
-  "name": "silvermine-serverless-utils",
+  "name": "@silvermine/serverless-utils",
   "version": "0.1.0",
   "description": "Utilities functions for working with Serverless",
   "scripts": {
