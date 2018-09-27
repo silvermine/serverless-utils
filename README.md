@@ -1,9 +1,9 @@
 # Silvermine Serverless Utilities
 
-[![Build Status](https://travis-ci.org/silvermine/serverless-utils.png?branch=master)](https://travis-ci.org/silvermine/serverless-utils)
+[![Build Status](https://travis-ci.org/silvermine/serverless-utils.svg?branch=master)](https://travis-ci.org/silvermine/serverless-utils)
 [![Coverage Status](https://coveralls.io/repos/github/silvermine/serverless-utils/badge.svg?branch=master)](https://coveralls.io/github/silvermine/serverless-utils?branch=master)
-[![Dependency Status](https://david-dm.org/silvermine/serverless-utils.png)](https://david-dm.org/silvermine/serverless-utils)
-[![Dev Dependency Status](https://david-dm.org/silvermine/serverless-utils/dev-status.png)](https://david-dm.org/silvermine/serverless-utils#info=devDependencies&view=table)
+[![Dependency Status](https://david-dm.org/silvermine/serverless-utils.svg)](https://david-dm.org/silvermine/serverless-utils)
+[![Dev Dependency Status](https://david-dm.org/silvermine/serverless-utils/dev-status.svg)](https://david-dm.org/silvermine/serverless-utils#info=devDependencies&view=table)
 
 
 ## What is it?
