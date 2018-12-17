@@ -27,9 +27,9 @@ provider:
    name: aws
    runtime: nodejs4.3
    environment:
-      CODE_VERSION: ${file(./node_modules/silvermine-serverless-utils/src/get-code-version.js):both}
-      CODE_HASH: ${file(./node_modules/silvermine-serverless-utils/src/get-code-version.js):hash}
-      CODE_TAG: ${file(./node_modules/silvermine-serverless-utils/src/get-code-version.js):tag}
+      CODE_VERSION: ${file(./node_modules/@silvermine/serverless-utils/src/get-code-version.js):both}
+      CODE_HASH: ${file(./node_modules/@silvermine/serverless-utils/src/get-code-version.js):hash}
+      CODE_TAG: ${file(./node_modules/@silvermine/serverless-utils/src/get-code-version.js):tag}
 ```
 
 
