@@ -18,6 +18,10 @@
     "url": "https://github.com/silvermine/serverless-utils/issues"
   },
   "homepage": "https://github.com/silvermine/serverless-utils#readme",
+  "engines": {
+    "node": ">=8.10.0",
+    "npm": "6.4.1"
+  },
   "devDependencies": {
     "@silvermine/eslint-config": "1.5.0",
     "coveralls": "3.0.2",
