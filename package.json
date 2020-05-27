@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Utilities functions for working with Serverless",
   "scripts": {
-    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -R spec 'tests/**/*.test.js'"
+    "test": "check-node-version --npm 6.13.4 && ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -R spec 'tests/**/*.test.js'"
   },
   "author": "Jeremy Thomerson",
   "license": "MIT",
@@ -18,12 +18,9 @@
     "url": "https://github.com/silvermine/serverless-utils/issues"
   },
   "homepage": "https://github.com/silvermine/serverless-utils#readme",
-  "engines": {
-    "node": ">=8.10.0",
-    "npm": "6.4.1"
-  },
   "devDependencies": {
     "@silvermine/eslint-config": "1.5.0",
+    "check-node-version": "4.0.3",
     "coveralls": "3.0.2",
     "eslint": "3.19.0",
     "expect.js": "0.3.1",
