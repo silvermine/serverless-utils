@@ -20,6 +20,7 @@
   "homepage": "https://github.com/silvermine/serverless-utils#readme",
   "devDependencies": {
     "@silvermine/eslint-config": "1.5.0",
+    "@silvermine/standardization": "1.0.0",
     "check-node-version": "4.0.3",
     "coveralls": "3.0.2",
     "eslint": "3.19.0",
