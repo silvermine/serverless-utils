@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "Utilities functions for working with Serverless",
   "scripts": {
-    "test": "check-node-version --npm 6.13.4 && ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -R spec 'tests/**/*.test.js'"
+    "test": "check-node-version --npm 6.13.4 && ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -R spec 'tests/**/*.test.js'",
+    "commitlint": "commitlint --from b09fa0d"
   },
   "author": "Jeremy Thomerson",
   "license": "MIT",
@@ -19,6 +20,8 @@
   },
   "homepage": "https://github.com/silvermine/serverless-utils#readme",
   "devDependencies": {
+    "@commitlint/cli": "8.3.5",
+    "@commitlint/travis-cli": "8.3.5",
     "@silvermine/eslint-config": "3.0.0-rc.0",
     "@silvermine/standardization": "1.0.0",
     "check-node-version": "4.0.3",
