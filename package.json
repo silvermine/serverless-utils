@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Utilities functions for working with Serverless",
   "scripts": {
-    "test": "check-node-version --npm 6.13.4 && ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -R spec 'tests/**/*.test.js'",
+    "test": "check-node-version --npm 8.5.5 && ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -R spec 'tests/**/*.test.js'",
     "commitlint": "commitlint --from b09fa0d"
   },
   "author": "Jeremy Thomerson",
