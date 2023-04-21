@@ -1,9 +1,9 @@
 # Silvermine Serverless Utilities
 
-[![Build Status](https://travis-ci.org/silvermine/serverless-utils.svg?branch=master)](https://travis-ci.org/silvermine/serverless-utils)
-[![Coverage Status](https://coveralls.io/repos/github/silvermine/serverless-utils/badge.svg?branch=master)](https://coveralls.io/github/silvermine/serverless-utils?branch=master)
-[![Dependency Status](https://david-dm.org/silvermine/serverless-utils.svg)](https://david-dm.org/silvermine/serverless-utils)
-[![Dev Dependency Status](https://david-dm.org/silvermine/serverless-utils/dev-status.svg)](https://david-dm.org/silvermine/serverless-utils#info=devDependencies&view=table)
+[![NPM Version][npm-version]][npm-version-url]
+[![License][license-badge]](./LICENSE)
+[![Build Status][build-status]][build-status-url]
+[![Coverage Status][coverage-status]][coverage-status-url]
 
 
 ## What is it?
@@ -46,3 +46,10 @@ This software is released under the MIT license. See [the license
 file](LICENSE) for more details.
 
 [sls]: https://serverless.com/
+[npm-version]: https://img.shields.io/npm/v/@silvermine/serverless-utils.svg
+[npm-version-url]: https://www.npmjs.com/package/@silvermine/serverless-utils
+[license-badge]: https://img.shields.io/github/license/silvermine/serverless-utils.svg
+[build-status]: https://github.com/silvermine/serverless-utils/actions/workflows/ci.yml/badge.svg
+[build-status-url]: https://travis-ci.org/silvermine/serverless-utils.svg?branch=master
+[coverage-status]: https://coveralls.io/repos/github/silvermine/serverless-utils/badge.svg?branch=master
+[coverage-status-url]: https://coveralls.io/github/silvermine/serverless-utils?branch=master
