@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "Utilities functions for working with Serverless",
   "scripts": {
-    "test": "check-node-version --npm 11.19.1 && ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -R spec 'tests/**/*.test.js'",
+    "check-node-version": "check-node-version --npm 11.19.1",
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -R spec 'tests/**/*.test.js'",
     "commitlint": "commitlint --from b09fa0d",
     "markdownlint": "markdownlint -c .markdownlint.json '{,!(node_modules,tests/markdownlint)/**/}*.md'",
     "eslint": "eslint .",
